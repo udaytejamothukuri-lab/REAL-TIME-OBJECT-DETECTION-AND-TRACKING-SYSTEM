@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv/
+
+# Model checkpoints and weights
+*.pt
+*.onnx
+*.engine
+models/*.pt
+
+# Video and Media outputs
+output/*.mp4
+output/*.avi
+output/*.mkv
+output/*.jpg
+output/*.png
+!output/README.md
+
+# Input test media (large files)
+input/*.mp4
+input/*.avi
+input/*.mov
+input/*.mkv
+!input/README.md
+
+# IDEs and OS artifacts
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
